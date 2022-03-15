@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bibliografias",
+  "info": {
+    "singularName": "bibliografia",
+    "pluralName": "bibliografias",
+    "displayName": "bibliografia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulopub": {
+      "type": "string",
+      "required": true
+    },
+    "autores": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "tipopub": {
+      "type": "integer",
+      "required": true
+    },
+    "eventorevista": {
+      "type": "string"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "anyopub": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
